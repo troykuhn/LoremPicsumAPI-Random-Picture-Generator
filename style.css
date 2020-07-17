@@ -1,0 +1,30 @@
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%; 
+    border: thick solid gray;
+    position: absolute;
+    z-index: 1;
+    top: -12px;
+    left: -12px;
+}
+
+img#frame {
+    position: relative;
+    z-index:2;
+}
+
+body {
+    background-image: url('https://images.homedepot-static.com/productImages/2fd2f730-cc15-4ed1-a3ba-9389a6fe65a0/svn/aspect-peel-and-stick-backsplash-a95-50-1d_600.jpg');
+    background-repeat: no-repeat;
+    background-color: darkgrey;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    color: lightgray;
+}
+
+input {
+    left: 50px;
+}
